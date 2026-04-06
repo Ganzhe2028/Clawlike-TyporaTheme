@@ -6,21 +6,31 @@ Clawlike Theme is a Typora theme focused on calm typography, warm color contrast
 
 This is an unofficial Typora theme inspired by a public visual style. It is not affiliated with or endorsed by Anthropic.
 
+![typography](/screenshots/en.png)
+![typography2](/screenshots/en2.png)
+![code-dark](/screenshots/code-dark.png)
+![code-light](/screenshots/code-light.png)
+![table](/screenshots/en-table.png)
+![table2](/screenshots/en-table2.png)
+
 ## Included files
 
 - `clawlike.css`: light theme
 - `clawlike-dark.css`: dark theme
 - `clawlike/fonts/JetBrainsMono-Regular.woff2`: monospace font for code blocks and inline code
-- `theme-showcase.md`: sample file for screenshots and quick theme preview
+- `theme-showcase.md`: Chinese sample file for screenshots and quick theme preview
+- `theme-showcase.en.md`: English sample file for screenshots and quick theme preview
 
 ## File structure
 
 ```text
 Clawlike-TyporaTheme/
 ├── README.md
+├── README.en.md
 ├── clawlike.css
 ├── clawlike-dark.css
 ├── theme-showcase.md
+├── theme-showcase.en.md
 └── clawlike/
     └── fonts/
         └── JetBrainsMono-Regular.woff2
@@ -36,7 +46,7 @@ Clawlike-TyporaTheme/
 
 ## Sample File
 
-The repository includes `theme-showcase.md` for quick previewing and screenshots in Typora.
+The repository includes `theme-showcase.md` and `theme-showcase.en.md` for quick previewing and screenshots in Typora.
 
 It is designed to show:
 
@@ -45,7 +55,7 @@ It is designed to show:
 - blockquotes, footnotes, links, and keyboard key styling
 - the table treatment that was tuned specifically for this theme
 
-If you want to add screenshots to the repository, open `theme-showcase.md` and capture the sections you need.
+If you want to add screenshots to the repository, use `theme-showcase.md` for the Chinese README and `theme-showcase.en.md` for the English README.
 
 ## Table Design
 
@@ -55,6 +65,7 @@ The table styling is not a minor tweak of the default Typora table. It was adjus
 - headers use a tighter uppercase treatment for faster scanning
 - numbers use `tabular-nums` so adjacent values compare more cleanly
 - cells have more breathing room and a larger minimum width
+- the first column carries slightly stronger weight, which works well for labels or section names
 - wide tables can scroll horizontally instead of collapsing the layout
 
 ## Installation

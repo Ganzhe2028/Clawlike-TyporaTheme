@@ -6,21 +6,30 @@ Clawlike Theme 是一个 Typora 主题，重点放在更平静的排版、更温
 
 这是一个非官方 Typora 主题，灵感来自公开可见的视觉风格。它与 Anthropic 没有关联，也未获得 Anthropic 的认可或背书。
 
+![typography](/screenshots/zh.png)
+![code-dark](/screenshots/code-dark.png)
+![code-light](/screenshots/code-light.png)
+![table](/screenshots/zh-table.png)
+![table2](/screenshots/zh-table2.png)
+
 ## 包含文件
 
 - `clawlike.css`：浅色主题
 - `clawlike-dark.css`：深色主题
 - `clawlike/fonts/JetBrainsMono-Regular.woff2`：用于代码块和行内代码的等宽字体
 - `theme-showcase.md`：用于截图和预览主题效果的示例文件
+- `theme-showcase.en.md`：用于英文 README 截图的英文示例文件
 
 ## 文件结构
 
 ```text
 Clawlike-TyporaTheme/
 ├── README.md
+├── README.en.md
 ├── clawlike.css
 ├── clawlike-dark.css
 ├── theme-showcase.md
+├── theme-showcase.en.md
 └── clawlike/
     └── fonts/
         └── JetBrainsMono-Regular.woff2
@@ -36,7 +45,7 @@ Clawlike-TyporaTheme/
 
 ## 示例文件
 
-仓库内提供了 `theme-showcase.md`，用于在 Typora 中快速预览和截图。
+仓库内提供了 `theme-showcase.md` 和 `theme-showcase.en.md`，分别用于中文和英文截图预览。
 
 这份文件集中展示了：
 
@@ -45,7 +54,7 @@ Clawlike-TyporaTheme/
 - 引用、脚注、链接和键位样式
 - 主题里单独调校过的表格系统
 
-如果你准备为仓库补效果图，直接打开 `theme-showcase.md` 截图即可。
+如果你准备为仓库补效果图，中文截图直接打开 `theme-showcase.md`，英文截图直接打开 `theme-showcase.en.md` 即可。
 
 ## 表格设计
 
@@ -55,6 +64,7 @@ Clawlike-TyporaTheme/
 - 表头使用更紧凑的大写样式，方便快速扫读栏目
 - 数字启用 `tabular-nums`，连续数字更整齐
 - 单元格留白和最小宽度更大，长内容不容易挤作一团
+- 第一列会稍微更稳一些，适合承载章节名或标签
 - 保留横向滚动能力，窄窗口下不会直接破坏版式
 
 ## 安装方法
