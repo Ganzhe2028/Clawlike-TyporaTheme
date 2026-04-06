@@ -12,6 +12,12 @@ This is an unofficial Typora theme inspired by a public visual style. It is not 
 > [!IMPORTANT]
 > When you adjust the theme, also check YAML front matter in both light and dark mode. Typora falls back to its default meta block styling if the theme does not style `pre.md-meta-block`.
 
+## Checks after CSS changes
+
+- For repository-managed custom themes, re-check fenced code blocks and text selection in Typora after each CSS change. `clawlike-dark.css` includes a dedicated CodeMirror selection override and should keep code-block selection to a single highlight layer.
+- Front matter / YAML blocks should also be checked in both light and dark themes so metadata remains readable after theme switches.
+- Footnote references should be checked in both themes as well so superscript markers stay aligned to the text line and do not overlap the line above.
+
 ![typography](/screenshots/en-dark.png)
 ![code-dark](/screenshots/code-dark.png)
 ![typography](/screenshots/en-light.png)

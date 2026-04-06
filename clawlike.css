@@ -53,15 +53,15 @@ body {
 
 /* --- YAML Front Matter --- */
 #write pre.md-meta-block {
-    margin: 0 0 2rem;
-    padding: 14px 18px;
-    border: 1px solid var(--meta-block-border);
-    border-radius: 8px;
-    background: var(--meta-block-bg);
-    color: var(--text-primary);
+    margin: 1.2em 0 1.8em;
+    padding: 1rem 1.25rem;
     font-family: var(--font-mono);
-    font-size: 0.85rem;
-    line-height: 1.6;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    background: #f3efe8;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
     white-space: pre-wrap;
 }
 
@@ -172,7 +172,6 @@ li {
 }
 
 /* --- Small Text Optimization --- */
-.md-footnote, 
 figcaption, 
 .md-def-name,
 .code-tooltip {
@@ -183,20 +182,33 @@ figcaption,
     opacity: 0.8;
 }
 
-sup,
-sub {
-    line-height: 0;
-}
-
-sup.md-footnote,
-sup.md-footnote a {
+sup.md-footnote {
+    display: inline-block;
+    margin: 0 0.08em;
     font-family: var(--font-sans);
     font-size: 0.72em;
-    line-height: 0;
-    vertical-align: super;
+    font-weight: 600;
+    line-height: 1;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.3em;
     color: var(--accent-color);
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+sup.md-footnote a,
+sup.md-footnote .md-meta,
+sup.md-footnote .md-meta * {
+    color: inherit !important;
     text-decoration: none;
-    border-bottom: none;
+    border-bottom: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
 }
 
 /* --- Optimized Tables (Clean Version) --- */

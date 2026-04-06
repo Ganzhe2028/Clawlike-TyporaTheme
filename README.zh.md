@@ -12,6 +12,12 @@ Clawlike Theme 是一个 Typora 主题，重点放在更平静的排版、更温
 > [!IMPORTANT]
 > 后续调整主题时，请同时检查亮色和暗色下的 YAML/front matter。只要主题没有覆盖 `pre.md-meta-block`，Typora 就会回退到默认的 meta block 样式。
 
+## CSS 修改后的检查项
+
+- 对于仓库管理的自定义主题，每次修改 CSS 后都要在 Typora 里重新检查围栏代码块和文本选区。`clawlike-dark.css` 里有专门的 CodeMirror 选区覆盖规则，代码块选中时应始终只保留一层高亮。
+- 还要在亮色和暗色主题下分别检查 front matter / YAML 区块，确保切换主题后元数据依然清晰可读。
+- 还要在两种主题下检查脚注引用，确保上标角标和正文行对齐，不会顶到上一行。
+
 ![typography](/screenshots/zh-dark.png)
 ![code-dark](/screenshots/code-dark.png)
 ![typography](/screenshots/zh-light.png)
