@@ -9,7 +9,6 @@ This is an unofficial Typora theme inspired by a public visual style. It is not 
 ![typography](/screenshots/en-light.png)
 ![typography](/screenshots/en.png)
 ![code-dark](/screenshots/code-dark.png)
-![code-light](/screenshots/code-light.png)
 
 ## Included files
 
