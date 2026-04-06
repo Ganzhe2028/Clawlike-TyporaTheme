@@ -306,11 +306,17 @@ mark {
 
 /* --- Code Block Selection (VS Code Dark+ Style) --- */
 /* Let CodeMirror own code-block selection to avoid a second native highlight layer. */
-.CodeMirror ::selection,
-pre.md-fences ::selection,
-.CodeMirror ::-moz-selection,
-pre.md-fences ::-moz-selection {
-    background: transparent !important;
+.CodeMirror::selection,
+.CodeMirror pre::selection,
+.CodeMirror pre *::selection,
+pre.md-fences::selection,
+pre.md-fences *::selection,
+.CodeMirror::-moz-selection,
+.CodeMirror pre::-moz-selection,
+.CodeMirror pre *::-moz-selection,
+pre.md-fences::-moz-selection,
+pre.md-fences *::-moz-selection {
+    background-color: transparent !important;
     color: inherit !important;
     text-shadow: none !important;
 }
@@ -329,18 +335,6 @@ pre.md-fences ::-moz-selection {
 
 /* Keep selected glyphs transparent so only the CodeMirror block background is visible. */
 .cm-s-inner .CodeMirror-selectedtext {
-    background: transparent !important;
-    color: inherit !important;
-    text-shadow: none !important;
-}
-
-/* Prevent browser-native text selection inside token spans from painting over the block. */
-.cm-s-inner .CodeMirror-line::selection,
-.cm-s-inner .CodeMirror-line > span::selection,
-.cm-s-inner .CodeMirror-line > span > span::selection,
-.cm-s-inner .CodeMirror-line::-moz-selection,
-.cm-s-inner .CodeMirror-line > span::-moz-selection,
-.cm-s-inner .CodeMirror-line > span > span::-moz-selection {
     background: transparent !important;
     color: inherit !important;
     text-shadow: none !important;

@@ -42,6 +42,7 @@ Clawlike-TyporaTheme/
 - Editorial serif headings with restrained sans-serif body text
 - Warm neutral palette instead of stark pure white
 - Clean code blocks tuned for technical writing
+- Dark-theme code selection keeps a single VS Code-style highlight instead of stacking a second browser-native layer
 - Tables are tuned for calmer scanning, with fewer borders, steadier numeric alignment, and a more editorial reading rhythm
 
 ## Sample File
