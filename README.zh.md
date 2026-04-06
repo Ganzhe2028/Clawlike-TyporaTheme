@@ -9,9 +9,9 @@ Clawlike Theme 是一个 Typora 主题，重点放在更平静的排版、更温
 > [!NOTE]
 > 截图在 Typora 中以 150% 缩放拍摄。
 
-![typography](/screenshots/zh-light.png)
 ![typography](/screenshots/zh-dark.png)
 ![code-dark](/screenshots/code-dark.png)
+![typography](/screenshots/zh-light.png)
 
 ## 包含文件
 

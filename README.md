@@ -9,9 +9,9 @@ This is an unofficial Typora theme inspired by a public visual style. It is not 
 > [!NOTE]
 > Screenshots were captured in Typora at 150% zoom.
 
-![typography](/screenshots/en-light.png)
-![typography](/screenshots/en.png)
+![typography](/screenshots/en-dark.png)
 ![code-dark](/screenshots/code-dark.png)
+![typography](/screenshots/en-light.png)
 
 ## Included files
 
