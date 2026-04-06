@@ -57,4 +57,4 @@ For these font files, just Google `Anthropic font`.
 
 ## LICENSE
 
-[MIT](/LICENSE.md)
+[MIT](LICENSE)
