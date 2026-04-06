@@ -6,12 +6,10 @@ Clawlike Theme is a Typora theme focused on calm typography, warm color contrast
 
 This is an unofficial Typora theme inspired by a public visual style. It is not affiliated with or endorsed by Anthropic.
 
+![typography](/screenshots/en-light.png)
 ![typography](/screenshots/en.png)
-![typography2](/screenshots/en2.png)
 ![code-dark](/screenshots/code-dark.png)
 ![code-light](/screenshots/code-light.png)
-![table](/screenshots/en-table.png)
-![table2](/screenshots/en-table2.png)
 
 ## Included files
 

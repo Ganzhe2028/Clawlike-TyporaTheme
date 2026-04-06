@@ -6,11 +6,10 @@ Clawlike Theme 是一个 Typora 主题，重点放在更平静的排版、更温
 
 这是一个非官方 Typora 主题，灵感来自公开可见的视觉风格。它与 Anthropic 没有关联，也未获得 Anthropic 的认可或背书。
 
+![typography](/screenshots/zh-light.png)
 ![typography](/screenshots/zh.png)
 ![code-dark](/screenshots/code-dark.png)
 ![code-light](/screenshots/code-light.png)
-![table](/screenshots/zh-table.png)
-![table2](/screenshots/zh-table2.png)
 
 ## 包含文件
 
