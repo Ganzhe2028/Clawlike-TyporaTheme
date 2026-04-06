@@ -16,6 +16,8 @@
     --code-bg: #f0ede6;        /* 代码块背景：深一点的米色 */
     --border-color: #e6e3dc;   /* 边框颜色 */
     --quote-bg: #f4f1ea;
+    --meta-block-bg: #f3efe8;
+    --meta-block-border: #ddd6ca;
     
     /* --- Typography (Clawlike Reading Stack) --- */
     /* Headings */
@@ -47,6 +49,20 @@ body {
     max-width: 1050px; /* 更宽的编辑区域 */
     margin: 0 auto;
     padding: 55px 75px; /* 调整内边距以适应宽屏 */
+}
+
+/* --- YAML Front Matter --- */
+#write pre.md-meta-block {
+    margin: 0 0 2rem;
+    padding: 14px 18px;
+    border: 1px solid var(--meta-block-border);
+    border-radius: 8px;
+    background: var(--meta-block-bg);
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
 }
 
 /* --- Headings (Serif & Elegant) --- */

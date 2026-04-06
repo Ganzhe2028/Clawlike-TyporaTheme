@@ -9,6 +9,9 @@ This is an unofficial Typora theme inspired by a public visual style. It is not 
 > [!NOTE]
 > Screenshots were captured in Typora at 150% zoom.
 
+> [!IMPORTANT]
+> When you adjust the theme, also check YAML front matter in both light and dark mode. Typora falls back to its default meta block styling if the theme does not style `pre.md-meta-block`.
+
 ![typography](/screenshots/en-dark.png)
 ![code-dark](/screenshots/code-dark.png)
 ![typography](/screenshots/en-light.png)
@@ -26,7 +29,7 @@ This is an unofficial Typora theme inspired by a public visual style. It is not 
 ```text
 Clawlike-TyporaTheme/
 ├── README.md
-├── README.en.md
+├── README.zh.md
 ├── clawlike.css
 ├── clawlike-dark.css
 ├── theme-showcase.md
@@ -51,6 +54,7 @@ The repository includes `theme-showcase.md` and `theme-showcase.en.md` for quick
 
 It is designed to show:
 
+- YAML front matter in both light and dark themes
 - heading hierarchy and body spacing
 - inline code and fenced code blocks
 - blockquotes, footnotes, links, and keyboard key styling

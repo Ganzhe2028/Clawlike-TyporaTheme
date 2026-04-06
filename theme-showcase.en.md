@@ -1,3 +1,12 @@
+---
+title: Clawlike Theme Showcase
+lang: en
+theme-check:
+  - yaml-front-matter
+  - typography
+  - tables
+---
+
 # Clawlike Theme Showcase
 
 This sample is designed for screenshots. Open it in Typora with both `Clawlike` and `Clawlike Dark` and capture the sections you want.

@@ -9,6 +9,9 @@ Clawlike Theme 是一个 Typora 主题，重点放在更平静的排版、更温
 > [!NOTE]
 > 截图在 Typora 中以 150% 缩放拍摄。
 
+> [!IMPORTANT]
+> 后续调整主题时，请同时检查亮色和暗色下的 YAML/front matter。只要主题没有覆盖 `pre.md-meta-block`，Typora 就会回退到默认的 meta block 样式。
+
 ![typography](/screenshots/zh-dark.png)
 ![code-dark](/screenshots/code-dark.png)
 ![typography](/screenshots/zh-light.png)
@@ -26,7 +29,7 @@ Clawlike Theme 是一个 Typora 主题，重点放在更平静的排版、更温
 ```text
 Clawlike-TyporaTheme/
 ├── README.md
-├── README.en.md
+├── README.zh.md
 ├── clawlike.css
 ├── clawlike-dark.css
 ├── theme-showcase.md
@@ -51,6 +54,7 @@ Clawlike-TyporaTheme/
 
 这份文件集中展示了：
 
+- 亮色和暗色主题下的 YAML/front matter
 - 标题层级和正文排版
 - 行内代码与代码块
 - 引用、脚注、链接和键位样式

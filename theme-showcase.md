@@ -1,3 +1,12 @@
+---
+title: Clawlike Theme Showcase
+lang: zh-CN
+theme-check:
+  - yaml-front-matter
+  - typography
+  - tables
+---
+
 # Clawlike Theme Showcase
 
 这是一份专门用于截图的示例文档。建议在 Typora 中分别切换 `Clawlike` 和 `Clawlike Dark` 打开它，直接截取不同区块。

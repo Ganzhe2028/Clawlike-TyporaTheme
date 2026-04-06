@@ -16,6 +16,8 @@
     --code-bg: #1e1e1e;         /* VS Code Dark+ Background */
     --border-color: #3a3835;    /* Subtle warm border */
     --quote-bg: #222120;        /* Quote background */
+    --meta-block-bg: #242220;
+    --meta-block-border: #3c3936;
     
     /* --- Typography (Clawlike Reading Stack) --- */
     /* Headings */
@@ -70,6 +72,20 @@ body {
     max-width: 1050px;
     margin: 0 auto;
     padding: 55px 75px;
+}
+
+/* --- YAML Front Matter --- */
+#write pre.md-meta-block {
+    margin: 0 0 2rem;
+    padding: 14px 18px;
+    border: 1px solid var(--meta-block-border);
+    border-radius: 8px;
+    background: var(--meta-block-bg);
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
 }
 
 /* --- Headings (Serif & Elegant) --- */
