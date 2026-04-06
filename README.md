@@ -54,3 +54,7 @@ For these font files, just Google `Anthropic font`.
 
 - `JetBrains Mono` is bundled only for monospace usage.
 - AGAIN: This is an UNOFFICIAL Typora theme inspired by a public visual style. It is NOT affiliated with or endorsed by Anthropic.
+
+## LICENSE
+
+[MIT](/LICENSE.md)
