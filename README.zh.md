@@ -17,6 +17,8 @@ Clawlike Theme 是一个 Typora 主题，重点放在更平静的排版、更温
 - 对于仓库管理的自定义主题，每次修改 CSS 后都要在 Typora 里重新检查围栏代码块和文本选区。`clawlike-dark.css` 里有专门的 CodeMirror 选区覆盖规则，代码块选中时应始终只保留一层高亮。
 - 还要在亮色和暗色主题下分别检查 front matter / YAML 区块，确保切换主题后元数据依然清晰可读。
 - 还要在两种主题下检查脚注引用，确保上标角标和正文行对齐，不会顶到上一行。
+- 修改 `clawlike-dark.css` 后，还要额外导出一次 PDF，确认 `html`、`body`、`#write` 和 `.typora-export` 在打印态保持统一深色背景，不会在页底或分页处回退成白块。
+- 导出后的深色 PDF 还要复查代码块、行内代码、引用、`mark` 和 `kbd`，确认这些带底色的元素没有回退成默认打印样式。
 
 ![typography](/screenshots/zh-dark.png)
 ![code-dark](/screenshots/code-dark.png)

@@ -17,6 +17,8 @@ This is an unofficial Typora theme inspired by a public visual style. It is not 
 - For repository-managed custom themes, re-check fenced code blocks and text selection in Typora after each CSS change. `clawlike-dark.css` includes a dedicated CodeMirror selection override and should keep code-block selection to a single highlight layer.
 - Front matter / YAML blocks should also be checked in both light and dark themes so metadata remains readable after theme switches.
 - Footnote references should be checked in both themes as well so superscript markers stay aligned to the text line and do not overlap the line above.
+- After changes to `clawlike-dark.css`, export a PDF once and confirm that `html`, `body`, `#write`, and `.typora-export` keep the same dark background in print so page bottoms and page breaks do not fall back to white blocks.
+- Re-check the exported dark PDF for fenced code blocks, inline code, blockquotes, `mark`, and `kbd` so tinted elements do not fall back to Typora's default print styling.
 
 ![typography](/screenshots/en-dark.png)
 ![code-dark](/screenshots/code-dark.png)

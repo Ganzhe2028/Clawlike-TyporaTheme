@@ -404,3 +404,58 @@ pre.md-fences ::-moz-selection {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--text-secondary);
 }
+
+@media print {
+    html,
+    body,
+    #write,
+    .typora-export {
+        background: var(--bg-paper) !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    pre.md-meta-block,
+    pre.md-fences,
+    code,
+    blockquote,
+    mark,
+    kbd {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    pre.md-meta-block {
+        color: var(--text-primary) !important;
+        background: #2a2927 !important;
+        border-color: var(--border-color) !important;
+    }
+
+    pre.md-fences {
+        background-color: var(--code-bg) !important;
+        border-color: var(--border-color) !important;
+        color: #d4d4d4 !important;
+    }
+
+    code {
+        background-color: #2a2928 !important;
+        color: #e8936f !important;
+    }
+
+    blockquote {
+        background: var(--quote-bg) !important;
+        color: var(--text-secondary) !important;
+    }
+
+    mark {
+        background-color: rgba(232, 147, 111, 0.25) !important;
+        color: var(--text-primary) !important;
+    }
+
+    kbd {
+        background-color: #333 !important;
+        color: #e8e6e1 !important;
+        border-color: #555 !important;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.4) !important;
+    }
+}
