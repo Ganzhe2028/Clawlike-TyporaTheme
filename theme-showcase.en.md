@@ -26,6 +26,18 @@ This paragraph is useful for showing body density, spacing, link styling, and th
 - `JetBrains Mono` carries code semantics
 - `==Mark==` and links provide low-intensity emphasis
 
+### Mixed Script Baseline Check
+
+These lines are here to expose mixed Chinese, English, punctuation, and numerals. The CJK glyphs should stay visually aligned instead of sinking below the Latin baseline:
+
+0. 总写作策略
+
+1. Identity & Growth（约 300 words）
+
+Paragraph 1 | Starting point + core conflict（约 140-160 words）
+
+This mixed line is useful for body text: 本周完成 3 次 review、2 轮修改，最后留下一个更清楚的 narrative.
+
 1. Open Typora
 2. Switch to `Clawlike`
 3. Scroll to the table section

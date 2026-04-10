@@ -26,6 +26,18 @@ Clawlike Theme 想要呈现的是更安静的阅读节奏。标题偏向 editori
 - `JetBrains Mono` 负责代码语义
 - `==Mark==` 和链接负责低强度提示
 
+### Mixed Script Baseline Check
+
+下面几行专门用来观察中英文、标点和数字混排时的纵向对齐，不应该出现中文整体下坠一截的感觉：
+
+0. 总写作策略
+
+1. Identity & Growth（约 300 words）
+
+Paragraph 1 | Starting point + core conflict（约 140-160 words）
+
+这段 mixed text 用来检查正文：本周完成 3 次 review、2 轮修改，最后留下一个更清楚的 narrative。
+
 1. 打开 Typora
 2. 切换到 `Clawlike`
 3. 滚动到表格区域
